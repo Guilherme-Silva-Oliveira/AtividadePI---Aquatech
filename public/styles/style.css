@@ -105,3 +105,74 @@ body{
 .version{
     font-size: 12px;
 }
+
+/* LOGIN */
+.login{
+    display: flex;
+    background-color: #e5e5e5;
+    width: 50%;
+    border-radius: 10px;
+}
+.login .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login .container input{
+    width: 430px;
+    height: 35px;
+    margin-bottom: 20px;
+    text-align: center;
+    border: 1px solid rgb(0, 174, 255);
+    border-radius: 10px;
+}
+.login .container span{
+    display: block;
+    color: palevioletred;
+    font-weight: bold;
+}
+.login .container h2{
+    color: palevioletred;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+.login .container button{
+    display: flex;
+    background-color: rgb(253, 0, 84);
+    color: white;
+    width: 100px;
+    height: 27px;
+    border-radius: 5px;
+    border: solid rgb(253, 0, 84);
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+/* BANNER CADASTRO */
+.banner-cadastro{
+    display: flex;
+    height: var(--tamanho-banner);
+    color: white;
+    background-image: url('../assets/imgs/bg-jelly-fish-para-home.png');
+    background-size: cover;
+    padding: 40px;
+    justify-content: center;
+    align-items: center;
+}
+.banner-cadastro .container{
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.banner-cadastro .container .formulario input{
+    margin-bottom: 10px;
+}
+.banner-cadastro .login{
+    width: 45%;
+}
