@@ -107,72 +107,103 @@ body{
 }
 
 /* LOGIN */
-.login{
-    display: flex;
-    background-color: #e5e5e5;
-    width: 50%;
-    border-radius: 10px;
-}
-.login .container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.login .container input{
-    width: 430px;
-    height: 35px;
-    margin-bottom: 20px;
-    text-align: center;
-    border: 1px solid rgb(0, 174, 255);
-    border-radius: 10px;
-}
-.login .container span{
-    display: block;
-    color: palevioletred;
-    font-weight: bold;
-}
-.login .container h2{
-    color: palevioletred;
-    text-align: center;
-    font-size: 30px;
-    font-weight: 600;
-}
-.login .container button{
-    display: flex;
-    background-color: rgb(253, 0, 84);
-    color: white;
-    width: 100px;
-    height: 27px;
-    border-radius: 5px;
-    border: solid rgb(253, 0, 84);
-    font-size: 15px;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-    font-weight: bold;
-    margin-bottom: 20px;
-    padding: 5px;
-}
-
-/* BANNER CADASTRO */
-.banner-cadastro{
+.login {
     display: flex;
     height: var(--tamanho-banner);
     color: white;
     background-image: url('../assets/imgs/bg-jelly-fish-para-home.png');
     background-size: cover;
     padding: 40px;
-    justify-content: center;
-    align-items: center;
 }
-.banner-cadastro .container{
+.login .container {
+    display: flex;
     justify-content: center;
     align-items: center;
     height: 100%;
 }
-.banner-cadastro .container .formulario input{
-    margin-bottom: 10px;
+.login .card-login{
+    background-color: #e5e5e5;
+    width: 410px;
+    padding: 20px 70px;
+    border-radius: 10px;
 }
-.banner-cadastro .login{
-    width: 45%;
+.login .card-login h2{
+    color: palevioletred;
+    text-align: center;
+    font-size: 37px;
+    margin-top: 10px;
+}
+.login .card-login button{
+    display: flex;
+    background-color: rgb(253, 0, 84);
+    border: solid 1px rgb(253, 0, 84);
+    padding: 7px;
+    color: white;
+    border-radius: 5px;
+    width: 100px; 
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    font-weight: bold;   
+}
+.login .card-login input{
+    margin-bottom: 20px;
+    width: 380px;
+    height: 30px;
+    border: 1px solid rgb(0, 183, 255);
+    border-radius: 5px;
+    text-align: center;
+}
+.login .card-login span{
+    display: block;
+    color: palevioletred;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.login .campo{
+    display: block;
+    justify-content: center;
+}
+
+/* CADASTRO */
+.login .card-cadastro{
+    background-color: #e5e5e5;
+    width: 410px;
+    padding: 0px 70px;
+    border-radius: 10px;
+}
+.login .card-cadastro span{
+    display: block;
+    color: palevioletred;
+    font-weight: bold;
+}
+.login .card-cadastro h2{
+    color: palevioletred;
+    font-weight: bold;
+    font-size: 37px;
+    text-align: center;
+}
+.login .card-cadastro input{
+    margin-bottom: 10px;
+    width: 380px;
+    height: 30px;
+    border: 1px solid rgb(0, 183, 255);
+    border-radius: 5px;
+    text-align: center;
+}
+.login .card-cadastro button{
+    display: flex;
+    background-color: rgb(253, 0, 84);
+    border: solid 1px rgb(253, 0, 84);
+    padding: 7px;
+    color: white;
+    border-radius: 5px;
+    width: 100px; 
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    font-weight: bold; 
+    margin-bottom: 20px;  
 }
